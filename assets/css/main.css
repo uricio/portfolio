@@ -88,7 +88,7 @@
 /* Type */
 
 	body {
-		background-color: #f4f4f4;
+		background-color: #a2cadf;
 		color: #666666;
 	}
 
@@ -274,7 +274,7 @@
 	}
 
 		a:hover {
-			color: #EF6480 !important;
+			color: #a2cadf !important;
 		}
 
 	strong, b {
@@ -426,8 +426,12 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #EF6480 !important;
-			box-shadow: inset 0 0 0 2px #EF6480;
+			color: #a2cadf !important;
+			box-shadow: inset 0 0 0 2px #a2cadf;
+		}
+		.button.big.bottom:hover {
+			color: #f4f4f4 !important;
+			box-shadow: inset 0 0 0 2px #f4f4f4;
 		}
 
 		input[type="submit"]:active,
@@ -1086,7 +1090,7 @@
 			}
 
 				.item header a:hover {
-					color: #EF6480 !important;
+					color: #a2cadf !important;
 				}
 
 			.item header strong, .item header b {
@@ -1310,7 +1314,7 @@
 		}
 
 			#header a:hover {
-				color: #EF6480 !important;
+				color: #a2cadf !important;
 			}
 
 		#header strong, #header b {
